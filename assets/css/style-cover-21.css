@@ -1,0 +1,114 @@
+body{
+    height:100%;
+    margin: 0;
+    width: 100%;
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url('../img/coverl.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+
+}
+
+#cover{
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    text-align: center;
+}
+
+h1{
+    margin-bottom: 10px;
+    color: brown;
+}
+
+h2{
+    margin-bottom: 20px;
+    color: brown;
+}
+
+p{
+    margin-bottom: 30px;
+    color: brown;
+}
+
+#button{
+    padding: 15px 30px;
+    font-size: 45px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: brown;
+
+}
+
+#gambar-1{
+    position: absolute;
+    top: -200px;
+    left: -150px;
+    height: 47%;
+    width: 47%;
+   
+    
+}
+
+#gambar-2{
+    position: absolute;
+    top: -200px;
+    right: -150px;
+    height: 47%;
+    width: 47%;
+    
+}
+
+
+@media  (max-width : 768px){
+    body{
+        padding: 10px;
+    }
+
+    #h1{
+        font-size: 28px;
+    }
+
+    #h2{
+        font-size: 22px;
+    }
+
+    #p{
+        font-size: 16px;
+    }
+
+    #button{
+        font-size: 18px;
+        padding: 10px 20px;
+
+    }
+
+    #cover{
+        padding: 15px;
+    }
+
+    #gambar-1{
+        top:-100px;
+        left: -150px;
+        height: 20%;
+        width: 20%;
+    }
+
+    #gambar-2{
+        top:-100px;
+        right: -150px;
+        height: 20%;
+        width: 20%;
+    }
+}
+

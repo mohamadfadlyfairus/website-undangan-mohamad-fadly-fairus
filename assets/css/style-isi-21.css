@@ -1,0 +1,361 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial',sans-serif;
+    
+    
+    
+
+}
+
+#background{
+    padding: 20px;
+}
+
+
+#gambar-bunga1{
+    width:30% ;
+    height:30% ;
+    top: 35px;
+    left: -100px;
+    position: absolute;
+}
+
+
+#navigation ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+    position: fixed;
+}
+
+#navigation ul li{
+    margin: 0 15px;
+}
+
+#navigation ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+#section-1{
+    background-image: url('../img/bc.jpg');
+    height: 60vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+}
+
+#section-2{
+    background-image: url('../img/bc2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 5px;
+    
+}
+
+#section-3{
+    background-image: url('../img/bc3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 5px;
+}
+
+#section-4{
+    background-image: url('../img/bc4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 5px;
+}
+
+#section-5{
+    background-image: url('../img/bc5.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5px;
+}
+
+#section-6{
+    background-image: url('../img/bc6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 5px;
+
+}
+
+#section-7{
+    background-image: url('../img/bc7.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 5px;
+    
+}
+
+#section-8{
+    background-image: url('../img/bc8.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   padding: 5px;
+}
+
+#section-9{
+    background-image: url('../img/bc9.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   padding: 5px;
+    
+}
+
+#section-10{
+    background-image: url('../img/bc10.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5px;
+}
+    
+
+.kotak-cover{
+    margin: 20px auto;
+    width: 700px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: lightpink;
+    
+}
+
+
+.quotes h1 {
+    font-style: italic;
+    text-align:center;
+    margin-bottom: 10px;
+}
+
+.quotes p {
+    font-weight: bold;
+    text-align: center;
+}
+
+.profile{
+   flex-direction: column;
+}
+
+
+ .mempelai{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+
+ .mempelai img{
+    width: 150px;
+    height: 150px;
+    border-radius: 45%;
+    margin-right: 20px;
+    object-fit: cover;
+    
+}
+
+.info{
+  flex: 1;
+}
+
+ 
+
+#jadwal p{
+    font-size: 17px;
+    margin: 10px ;
+}
+
+.media{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#video{
+    width: 55vw;
+    height: auto;
+    max-width:600px ;
+    max-height:60vh ;
+}
+
+#kenangan1{
+    width: 35%;
+    height: 20%;
+}
+
+#kenangan2{
+    width: 45%;
+    height: 25%;
+}
+
+.fotovideo img{
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+}
+
+#Tamukhusus table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+#Tamukhusus th{
+    border: 1px solid white;
+    padding: 10px;
+    text-align: left;
+    background-color: white;
+}
+
+#Tamukhusus td{
+    border: 1px solid white;
+    padding: 10px;
+    text-align: left;
+}
+
+
+label{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: block;
+}
+
+input[type="text"], select{
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 16px 0;
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+#klik-rspv{
+    width: 100%;
+    padding: 10px;
+    margin: 8px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: violet;
+}
+
+#cinta1{
+    width: 40%;
+}
+
+#cinta-2{
+    width: 37%;
+}
+
+#cinta-3{
+    height: 15%;
+    width: 25%;
+}
+
+#cinta-4{
+    width: 44%;
+    
+}
+
+#gambar-qris{
+    height: 20%;
+    width: 25%;
+}
+
+
+#klik-musik{
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: maroon;
+    border-radius: 100%;
+    padding: 20px;
+
+}
+
+#klik-musik img{
+    width: 10vh;
+}
+
+@media (max-width: 768px){
+
+#navigation ul{
+    flex-direction: row;
+    display: none;
+    font-size: 5px;
+}
+
+#navigation ul{
+    display: flex;
+
+}
+
+#gambar-bunga1{
+    width: 30%;
+    height: 20%;
+    left: -50px;
+}
+
+.kotak-cover {
+    width: 90%;
+    height: 50%;
+    
+    
+}
+
+.mempelai {
+    flex-direction: column;
+    align-items: center;
+}
+
+.mempelai ing {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+#video {
+    width: 90vw;
+    max-width: 100%;
+    height: auto;
+}
+ 
+#Tamukhusus table,#Tamukhusus th,#Tamukhusus td{
+    
+    width: 100%;
+}
+
+h1,h2,h3,h4,p{
+    font-size: 16px;
+
+}
+
+#klik-musik{
+    bottom: 10px;
+    left: 10px;
+    padding: 15px;
+}
+
+#klik-musik img{
+    width: 8vh;
+}
+
+}
